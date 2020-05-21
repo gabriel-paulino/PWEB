@@ -5,7 +5,7 @@ function Retangulo(base, altura) {
     this.altura = altura;
 
     this.calculaArea = function () {
-        var area = (this.base * this.altura) / 2;
+        var area = this.base * this.altura;
         return area;
     }
 }
