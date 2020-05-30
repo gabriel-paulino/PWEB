@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif, Helvetica, Arial;
+}
+
+.logo {
+    width: 100px;  
+    margin: 0; 
+}
+
+nav{
+    font-family: 'Audiowide', cursive;
+    font-size: 18px;
+    background: linear-gradient(to left, #272727, #5d5d5d) !important;
+    padding: 0 !important;
+}
+  
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    letter-spacing: 1.2px;
+}
+
+.p_justify{
+    text-align: justify;
+}
+
+
+
+#home, #middle{
+    padding: 40px 0;
+}
+
+h1{
+    padding-top: 60px;;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Audiowide', cursive;
+    text-transform: uppercase;
+    color: rgb(27, 27, 27);
+    margin: 15px 0;
+}
+
+img {
+    margin: 15px 0;
+    transition: .3s ease-in;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+#github {
+    width: 50px;
+    margin: 5px 25px;
+    cursor: pointer;
+}
+
+#github:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.jobs:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: linear-gradient(to left, #272727, #5d5d5d);
+    padding: 10px 0;
+}
+
+footer p {
+    font-family: 'Audiowide', cursive;
+    color: #FFF;
+}
