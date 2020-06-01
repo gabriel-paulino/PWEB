@@ -27,4 +27,17 @@ const targetsFunctions = (element, e) => {
 
 targets.map(el => {
     el.addEventListener('click', (e) => targetsFunctions(el.hash, e))
-})
+});
+
+
+function mOver(obj) {
+    obj.src = "img/IE2.jpeg";
+}
+
+function mOut(obj) {
+    obj.src = "img/IE1.jpeg";
+}
+
+function mClick(obj) {
+    obj.src = "img/IE3.jpeg";
+}
