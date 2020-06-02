@@ -30,8 +30,6 @@ p {
     text-align: justify;
 }
 
-
-
 #home, #middle{
     padding: 40px 0;
 }
@@ -109,15 +107,15 @@ footer p {
 
   .contact button {
     width: 100%;
-    background: linear-gradient(to left, #627ed8, #141269);
-    letter-spacing: 3px;
+    background: linear-gradient(to left, #272727, #5d5d5d);
+    letter-spacing: 2px;
     height: 50px;
     cursor: pointer;
     position: relative;
     display: block;
-    color: white;
+    color: #111111;
     font-size: 20px;
-    border: 2px #222 solid;
+    border: 2px #272727 solid;
     overflow: hidden;
     transition: 1s all ease;
     z-index: 1;
@@ -126,7 +124,7 @@ footer p {
   }
   
   .contact button::before {
-    background: linear-gradient(to left, #272727, #5d5d5d);
+    background: linear-gradient(to left, #ee8c8c, #550000);
     content: "";
     position: absolute;
     top: 50%;
@@ -142,5 +140,9 @@ footer p {
   }
   
   .contact button:hover::before {
-    width: 100%;
+    width: 100%;  
+  }
+
+  .slider1, .slider2  {
+    background: linear-gradient(to left, #868686, #d1d1d1) !important;
   }
