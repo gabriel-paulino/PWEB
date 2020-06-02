@@ -1,6 +1,16 @@
 const targets = Array.from(document.querySelectorAll('.js-scroll-trigger'));
 const navbar = document.getElementById('mainNav');
 
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("Btn-Go-to-Top").style.display = "block";
+    } else {
+        document.getElementById("Btn-Go-to-Top").style.display = "none";
+    }
+}
+
 //Smooth scrolling when clicking an anchor link
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
