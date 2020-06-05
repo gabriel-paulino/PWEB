@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form name="frm" id="frm" method="post" action="#" onsubmit="return validar(this);">
+        <h1>Formulário principal</h1>
+        <label class="text" for="nome">Nome</label>
+
+        <input class="field" type="text" name="nome" id="nome" />
+
+        <label class="text" for="email">Email:</label>
+
+        <input class="field" type="email" name="email" id="email" required />
+
+        <label class="text text2" for="comentario">Comentario</label>
+
+        <textarea class="field" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+
+
+        <div class="row">
+            <label>Primeira vez no site??</label>
+            <label><input type="radio" name="optbtn" value="S" id="sim" /> Sim</label>
+            <label><input type="radio" name="optbtn" value="N" id="nao" /> Não</label>
+        </div>
+
+        <div class="row row-btn">
+            <input class="btn" type="submit" name="sbt" value="Enviar" />
+            <button class="btn" onclick="Limpar();">Limpar</button>
+        </div>
+
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>
